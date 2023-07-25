@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify,render_template
 from rasa.core.agent import Agent
 import asyncio
 from flask_cors import CORS
@@ -31,7 +31,7 @@ def rasa_webhook():
 @app.route('/')
 def index():
     html_content="<h1>Hello</h1>"
-    return html_content,200,{'Content-Type':'text/html'}
+    return render_template('home.html')
 
 if __name__ == "__main__":
     app.run()
