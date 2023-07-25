@@ -1,4 +1,5 @@
 flask
 numpy==1.22
-rasa
+tensorflow==2.11
+rasa==3.6.4
 Flask-Cors
