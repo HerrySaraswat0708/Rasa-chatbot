@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app,origin='https://d10c-203-81-241-102.ngrok-free.app/rasa/webhook')
 
 def load_rasa_model():
-    agent = Agent.load('../models/20230722-144221-mean-momentum.tar.gz')
+    agent = Agent.load('models/20230722-144221-mean-momentum.tar.gz')
     return agent
 
 agent=load_rasa_model()
@@ -34,5 +34,4 @@ def index():
     return html_content,200,{'Content-Type':'text/html'}
 
 if __name__ == "__main__":
-    print('Server is listening at port 80')
-    app.run(host='localhost',port=80)
+    app.run()
