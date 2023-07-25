@@ -1,3 +1,4 @@
 flask
+numpy==1.22
 rasa
 Flask-Cors
