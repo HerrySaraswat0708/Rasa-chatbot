@@ -105,7 +105,7 @@
             appendMessage("user-messages", userInput);
             document.getElementById("user-inputs").value = "";
             console.log('sending request')
-            fetch("https://main--leafy-fairy-af0ed2.netlify.app/rasa/webhook", {
+            fetch("/rasa/webhook", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ "message": userInput }),
