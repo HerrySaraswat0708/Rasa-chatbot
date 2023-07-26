@@ -1,5 +1,5 @@
 flask
-numpy==1.22
+numpy==1.17.3
 tensorflow==2.11.0
 rasa==3.6.4
 protobuf==3.9.2
