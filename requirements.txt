@@ -1,6 +1,6 @@
 flask
 numpy==1.22
-tensorflow<=2.11.0
-rasa<=3.6.4
-protobuf>=3.9.*
+tensorflow==2.11.0
+rasa==3.6.4
+protobuf==3.9.2
 Flask-Cors
