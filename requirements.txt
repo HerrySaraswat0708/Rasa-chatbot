@@ -7,5 +7,6 @@ packaging==20.0
 pytz==2019.0
 urllib==1.25.4
 tensorflow==2.11.0
+gunicorn==19.7.1
 rasa==3.6.4
 Flask-Cors
