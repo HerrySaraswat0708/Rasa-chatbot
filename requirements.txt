@@ -1,10 +1,10 @@
 flask
 attrs==19.3
-numpy==1.17.3
+numpy==1.19.2
 jsonschema==3.2
 protobuf==3.9.2
 packaging==20.0
-pytz
+pytz==2019.0
 tensorflow==2.11.0
 gunicorn==19.7.1
 rasa
