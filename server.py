@@ -4,7 +4,7 @@ import asyncio
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app,origin="/rasa/webhook")
+CORS(app)
 
 def load_rasa_model():
     agent = Agent.load('models/20230722-144221-mean-momentum.tar.gz')
