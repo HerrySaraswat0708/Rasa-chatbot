@@ -3,7 +3,8 @@ attrs==19.3
 numpy==1.19.2
 jsonschema==3.2
 protobuf==3.9.2
-packaging==19.0
+packaging==20.0
+pytz==2019.0
 tensorflow==2.11.0
 rasa==3.6.4
 Flask-Cors
