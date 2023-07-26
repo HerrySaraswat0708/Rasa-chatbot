@@ -5,7 +5,7 @@ jsonschema==3.2
 protobuf==3.9.2
 packaging==20.0
 pytz
-urllib==1.25.4
+urllib
 tensorflow==2.11.0
 gunicorn==19.7.1
 rasa==3.6.4
